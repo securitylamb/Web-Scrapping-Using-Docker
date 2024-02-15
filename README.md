@@ -9,14 +9,12 @@ The main purpose of this project is to showcase how to set up a Docker environme
 ## Components
 
 - **Docker Image**: Contains Firefox browser and Python libraries.
-- **Scraping Logic**: Update the `home.py` file with your specific scraping logic.
-- **Deployment**: Hosted on Amazon Web Services (AWS).
+- **Scraping Logic**: Update the `main.py` file with your specific scraping logic.
+- **Deployment**: Currently Hosted on Local System .
 
 ## Instructions
 
-1. **Scraping Logic**: Modify the `home.py` file in the `code` folder. Add your custom scraping code here.
-2. **Archive Content**: Create a ZIP archive of the contents in the `code` folder. Name it `code.zip`.
-3. **Upload to S3**: Upload the `code.zip` archive to your specified S3 bucket (refer to the CloudFormation script for the bucket name).
+1. **Scraping Logic**: Modify the `main.py` file in the main directory. Add your custom scraping code here.
 
 ## Note
 
