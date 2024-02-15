@@ -18,7 +18,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
 
 # Define the URL you want to scrape
-url = "https://www.neuralnine.com/books/"
+url = "website link here"
 
 # Navigate to the URL
 driver.get(url)
